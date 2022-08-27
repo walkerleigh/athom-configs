@@ -116,6 +116,9 @@ switch:
     pin: GPIO12
     id: relay
     restore_mode: ${relay_restore_mode}
+    on_turn_on:
+    - delay: 30s
+    - switch.turn_off: relay
 
 light:
   - platform: status_led
