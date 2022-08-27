@@ -33,7 +33,8 @@ web_server:
   port: 80
 
 wifi:
-  ap: {} # This spawns an AP with the device name and mac address with no password.
+  ap: {} # This spawns an AP with the device name and mac address.
+    password: "Winiawobbles"
 
 captive_portal:
 
